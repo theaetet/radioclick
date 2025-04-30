@@ -12,12 +12,12 @@ Flip through stations with one button or IR, auto-announces and resumes where yo
    ```bash
    git clone https://github.com/theaetet/radioclick.git
    cd radioclick
-   chmod +x radio.py
-   ./radio.py
+   chmod +x startradio.py
+   ./startradio.py
    ```
 3. **Enable autostart**
    ```bash
-   sudo ln -s $PWD/radio.py /usr/local/bin/radioclick
+   sudo ln -s $PWD/startradio.py /usr/local/bin/radioclick
    (echo "@reboot /usr/local/bin/radioclick") | crontab -
    ```
 4. **Power on** — your Pi plays internet radio automatically.
