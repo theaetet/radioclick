@@ -49,7 +49,7 @@ Hidden config `.radio_config.json` is created automatically. Defaults:
 
 ## Controls
 
-- **GPIO button**: single = next station; double = skip +10.
+- **GPIO button**: next station.
 - **IR remote**:
   - `KEY_NEXT` / `KEY_PREVIOUS`
   - `KEY_VOLUMEUP` / `KEY_VOLUMEDOWN`
